@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageShow = () => {
+function ImageShow  () {
   return (
     <div>ImageShow</div>
   )

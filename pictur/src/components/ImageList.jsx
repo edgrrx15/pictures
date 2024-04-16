@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageList = () => {
+function ImageList  () {
   return (
     <div>ImageList</div>
   )
