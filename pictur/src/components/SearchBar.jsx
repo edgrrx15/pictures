@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 
 function SearchBar({onSubmit}) {
 
@@ -18,7 +18,7 @@ const handleClick = () =>{
   onSubmit(term)
 }
   return (
-    <div>
+    <div className='search-bar'>
       <h1>SearchBar</h1>
       <form onSubmit={handleFormSubmit}>
         Confirma tu busqueda: {term}
