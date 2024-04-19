@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import './SearchBar.css'
 
 function SearchBar({onSubmit}) {
 
@@ -19,12 +20,11 @@ const handleClick = () =>{
 }
   return (
     <div className='search-bar'>
-      <h1>SearchBar</h1>
       <form onSubmit={handleFormSubmit}>
-        Confirma tu busqueda: {term}
+        <label htmlFor="">Pictures Search</label>
         <input onChange={handleChange} value={term}/>
       </form>
-      <button onClick={handleClick}>Click me</button>
+
     </div>
   )
 }
